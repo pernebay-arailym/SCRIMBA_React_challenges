@@ -9,6 +9,7 @@ header {
     align-items: center;
     color: white;
     height: 55px;
+    margin-bottom: 20px;
 }
 
 header > img {
@@ -40,7 +41,7 @@ article.journal-entry .main-image-container {
     flex-shrink: 0;
     margin-right: 19px;
     margin-left: 19px;
-    margin-top: 19px;;
+    margin-top: 0px;;
 }
 
 article.journal-entry .main-image {
@@ -58,6 +59,7 @@ article.journal-entry .main-image {
 .info-container a {
     color: #2B283A;
     font-size: 0.7rem;
+
 }
 
 .info-container a:visited {
@@ -75,9 +77,8 @@ article.journal-entry .main-image {
 
 .info-container p.entry-text {
     line-height: 1.5;
-    font-size: 0.8rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+    font-size: 0.9rem;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
