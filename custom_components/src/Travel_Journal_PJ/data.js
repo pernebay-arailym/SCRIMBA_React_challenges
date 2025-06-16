@@ -26,7 +26,7 @@ export default [
     {
         id: 3,
         img: {
-            src: "https://scrimba.com/links/travel-journal-norway-image-url",
+            src: "marrakech.png",
             alt: "lalla takerkoust"
         },
         title: "Lalla Takerkoust",
